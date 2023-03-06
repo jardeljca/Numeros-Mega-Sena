@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    max-width: 1140px;
+    margin: auto;
+}
+.cabecalho{
+    height: 20vh;
+    width: 100%;
+    background: linear-gradient(90deg, #277eb6, #90e6fc);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cabecalho .titulo{
+    font-size: 50px;
+    color: #fff;
+}
+.cabecalho .img{
+    position: relative;
+    width: 10px;
+    height: 5px;
+}
