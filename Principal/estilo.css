@@ -8,22 +8,24 @@ body{
     margin: auto;
 }
 header{
-    height: 20vh;
+    height: 30vh;
     width: 100%;
     background: linear-gradient(90deg, #277eb6, #90e6fc);
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
 }
 header .titulo{
     font-size: 50px;
     color: #fff;
-    margin-right: 300px;
+    margin-right: 200px;
+}
+header img{
+    width: 180px;
 }
 .corpo{
     background-color: #ccc;
-    height: 80vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,7 +36,23 @@ header .titulo{
     width: 400px;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 .corpo .titulo-sorteio{
     font-size: 20px;
+    text-align: center;
 }
+.corpo .numeros-sorteados{
+    display: flex;
+    justify-content: space-around;
+}
+.corpo p{
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}   
