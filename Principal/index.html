@@ -9,24 +9,22 @@
     <link rel="stylesheet" href="./estilo.css">
 </head>
 <body>
-    <div class="cabecalho">
+    <header>
         <div class="titulo">Mega-Sena</div>
-        <div class="img">
-            <img src="./img/Mega-Sena-Cabecalho.png" alt="Imagem do bilhete da loteria">
-        </div>
-    </div>
+        <img src="./img/Mega-Sena-Cabecalho.png" alt="Imagem do bilhete da loteria">
+    </header>
     <div class="corpo">
         <div class="corpo-sorteio">
-            <div class="titulo-sorteio"></div>
+            <div class="titulo-sorteio">Sorteio da mega sena</div>
             <div class="numeros-sorteados">
-                <div class="numero-sorteado"></div>
-                <div class="numero-sorteado"></div>
-                <div class="numero-sorteado"></div>
-                <div class="numero-sorteado"></div>
-                <div class="numero-sorteado"></div>
-                <div class="numero-sorteado"></div>
+                <p id="numero1"></p>
+                <p id="numero2"></p>
+                <p id="numero3"></p>
+                <p id="numero4"></p>
+                <p id="numero5"></p>
+                <p id="numero6"></p>
             </div>
-            <div class="botao-sorteio"></div>
+            <button onclick="SortearNumeros()">Sortear Números</button>
         </div>
     </div>
 </body>

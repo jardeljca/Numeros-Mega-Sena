@@ -5,23 +5,36 @@
 }
 body{
     background-color: #fff;
-    max-width: 1140px;
     margin: auto;
 }
-.cabecalho{
+header{
     height: 20vh;
     width: 100%;
     background: linear-gradient(90deg, #277eb6, #90e6fc);
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    position: relative;
 }
-.cabecalho .titulo{
+header .titulo{
     font-size: 50px;
     color: #fff;
+    margin-right: 300px;
 }
-.cabecalho .img{
-    position: relative;
-    width: 10px;
-    height: 5px;
+.corpo{
+    background-color: #ccc;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.corpo .corpo-sorteio{
+    background-color: red;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.corpo .titulo-sorteio{
+    font-size: 20px;
 }
