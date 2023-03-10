@@ -3,29 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=no">
     <title>Números da Mega Sena</title>
 
     <link rel="stylesheet" href="./estilo.css">
 </head>
-<body>
+<body class="img-body">
     <header>
         <div class="titulo">Mega-Sena</div>
         <img src="./img/Mega-Sena-Cabecalho.png" alt="Imagem do bilhete da loteria">
     </header>
     <div class="corpo">
         <div class="corpo-sorteio">
-            <div class="titulo-sorteio">Sorteio da mega sena</div>
-            <div class="numeros-sorteados">
-                <p id="numero1"></p>
-                <p id="numero2"></p>
-                <p id="numero3"></p>
-                <p id="numero4"></p>
-                <p id="numero5"></p>
-                <p id="numero6"></p>
+            <h2>Números sorteados:</h2>
+            <div class="numeros">
+                <p id="num1"></p>
+                <p id="num2"></p>
+                <p id="num3"></p>
+                <p id="num4"></p>
+                <p id="num5"></p>
+                <p id="num6"></p>
             </div>
             <button onclick="SortearNumeros()">Sortear Números</button>
         </div>
     </div>
+    <footer>
+        <hr color="black">
+        <div class="rodape">
+            <img src="./img/Unifor-Logo-removebg-preview.png" alt="logo unifor">
+            <img src="./img/WhatsApp Image 2023-03-09 at 22.15.34_auto_x2.jpg" alt="Logo matemática">
+            <h2>Atividade parcial de matemática do curso ADS</h2>
+            <ul>
+                <h3>Equipe:</h3>
+                <li>
+                    Jardel de Castro Queiroz
+                </li>
+                <li>Antonio Artenio de Souza Bezerra</li>
+            </ul>
+        </div>
+    </footer>
+    <script src="./JS.js"></script>
 </body>
 </html>
