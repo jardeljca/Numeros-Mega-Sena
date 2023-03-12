@@ -2,7 +2,7 @@
 function SortearNumeros() {
     var numeros = [];
 
-/* O código abaixo irá gerar 6 nuúmeros aleatórios */
+/* O código abaixo irá gerar 6 números aleatórios */
     while(numeros.length < 6) {
         var num = Math.floor(Math.random()*61);
         if(!numeros.includes(num)){
